@@ -16,6 +16,7 @@
     font-size: 20px;
      font-weight: 600;
      background: transparent;
+     cursor: pointer;
   }
 
   .paragraph{
@@ -47,6 +48,7 @@
     font-weight: 600;
     margin-top: 40px;
     background: transparent;
+    cursor: pointer;
   }
 /* Primary Object End Here */
 
@@ -63,7 +65,7 @@
 
  .header-cover{
   background: url(../assets/Hero-bg.png);
-  width: 100%;
+  width: 1435px;
   height: 650px;
  }
   .header-cover-content{
@@ -119,10 +121,11 @@
 }
 .development-container-content h1{
   padding-top: 5px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 ..development-container-content p{
  text-align: center;
+ padding: 20px 47px;
 }
 
 .development-section-1{
@@ -184,8 +187,8 @@
 }
 .inspiration-container-content p{
  text-align: center;
- padding-top: 22px;
  margin-bottom: 48px;
+ padding: 22px 144px;
 }
 .inspiration-container-video{
  box-sizing: border-box;
@@ -205,6 +208,81 @@
   justify-content: center;
 }
                /* my-inspiration-container End Here */
+
+              /* my-current-target Section Start Here */
+.my-current-target{
+ width: 1140px;
+ margin: 150px 145px;
+ /* background-color: blue; */
+}
+.my-current-target-content p{
+ text-align: center;
+ padding: 22px 144px;
+}
+.my-current-target-details{
+ display: flex;
+ margin-top: 45px;
+}
+.details-1{
+  width: 364px;
+   padding: 40px;
+   border-radius: 14px;
+   background: rgba(255, 76, 30, 0.05);
+   margin-right: 24px;
+}
+.details-1 h3{
+ padding: 20px 0px 10px 0px;
+}
+.details-1 p{
+ padding-bottom: 20px;
+}
+.details-1 a{
+ color: black;
+ font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.details-2{
+  width: 364px;
+   padding: 40px;
+   border-radius: 14px;
+   background: rgba(0, 76, 232, 0.05);
+   margin-right: 24px;
+}
+.details-2 h3{
+ padding: 20px 0px 10px 0px;
+}
+.details-2 p{
+ padding-bottom: 20px;
+}
+.details-2 a{
+ color: black;
+ font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.details-3{
+  width: 364px;
+   padding: 40px;
+   border-radius: 14px;
+   background: rgba(255, 223, 0, 0.05);
+   margin-right: 24px;
+}
+.details-3 h3{
+ padding: 20px 0px 10px 0px;
+}
+.details-3 p{
+ padding-bottom: 20px;
+}
+.details-3 a{
+ color: black;
+ font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+              /* my-current-target Section End Here */
 
 /* Main Section End Here */
 
