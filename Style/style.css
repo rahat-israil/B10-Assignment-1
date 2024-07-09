@@ -62,7 +62,7 @@
           /* Navbar Style End */
 
  .header-cover{
-  background: url(/assets/Hero-bg.png);
+  background: url(../assets/Hero-bg.png);
   width: 100%;
   height: 650px;
  }
@@ -170,6 +170,41 @@
  padding-top: 30px;
 }
           /* why-development-container End Here */
+
+
+               /* my-inspiration-container Start Here */
+
+.my-inspiration-container{
+ width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 90px 145px;
+}
+.inspiration-container-content p{
+ text-align: center;
+ padding-top: 22px;
+ margin-bottom: 48px;
+}
+.inspiration-container-video{
+ box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 14px;
+  width: 1120px;
+   height: 595px;
+}
+.inspiration-video{
+ margin: 20px auto;
+ margin-left: 20px;
+}
+.inspiration-video iframe{
+ border-radius: 14px;
+ width: 1076px;
+  height: 550px;
+  justify-content: center;
+}
+               /* my-inspiration-container End Here */
 
 /* Main Section End Here */
 
