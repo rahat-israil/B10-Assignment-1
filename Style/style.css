@@ -15,6 +15,7 @@
     opacity: 0.8;
     font-size: 20px;
      font-weight: 600;
+     background: transparent;
   }
 
   .paragraph{
@@ -42,9 +43,10 @@
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-top: 40px;
+    background: transparent;
   }
 /* Primary Object End Here */
 
@@ -96,16 +98,18 @@
 /* Header section Style End Here */
 
 /* Main Section Start Here */
+
+       /* why-development-container Start Here */
 .why-development-container{
  width: 1180px;
  margin: 70px 145px;
  border-radius: 14px;  
- /* background: rgba(13, 19, 33, 0.02); */
- background: aquamarine;
+ background: rgba(13, 19, 33, 0.02);
 }
 .development-container{
  width: 1000px;
  margin: 0px auto;
+ padding: 70px;
 }
 .development-container-content{
  display: flex;
@@ -124,8 +128,7 @@
 .development-section-1{
  display: flex;
  border-radius: 14px;
-  /* background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%); */
-  background-color: blueviolet;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
   margin-top: 50px;
 }
 .section1-content{
@@ -136,6 +139,37 @@
 .section1-img{
  padding-top: 30px;
 }
+
+.development-section-2{
+ display: flex;
+ border-radius: 14px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  margin-top: 50px;
+}
+.section2-content{
+ width: 490px;
+ padding: 48px 20px;
+ margin-left: 100px;
+}
+.section2-img{
+ padding-top: 30px;
+}
+
+.development-section-3{
+ display: flex;
+ border-radius: 14px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  margin-top: 50px;
+}
+.section3-content{
+ width: 477px;
+ padding: 48px 20px;
+ margin-right: 200px;
+}
+.section3-img{
+ padding-top: 30px;
+}
+          /* why-development-container End Here */
 
 /* Main Section End Here */
 
