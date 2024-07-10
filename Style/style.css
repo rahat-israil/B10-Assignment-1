@@ -59,14 +59,14 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 45px 120px;
+   padding: 35px 120px;
  }
           /* Navbar Style End */
 
  .header-cover{
   background: url(../assets/Hero-bg.png);
   width: 1435px;
-  height: 650px;
+  height: 700px;
  }
   .header-cover-content{
    display: flex;
@@ -96,6 +96,7 @@
   background: black;
   color: white;
   opacity: 1;
+  margin-bottom: 50px;
  }
 /* Header section Style End Here */
 
@@ -186,7 +187,7 @@
   margin: 90px 145px;
 }
 .inspiration-container-content p{
- text-align: center;
+ text-align: justify;
  margin-bottom: 48px;
  padding: 22px 144px;
 }
@@ -216,7 +217,7 @@
  /* background-color: blue; */
 }
 .my-current-target-content p{
- text-align: center;
+ text-align: justify;
  padding: 22px 144px;
 }
 .my-current-target-details{
@@ -340,7 +341,7 @@
     padding: 13px 18px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 18px;
       font-weight: 600;
       margin-left: 5px;
 }
